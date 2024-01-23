@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.btn{
+    padding: 0.3rem;
+    font-weight: 400;
+    width: 60px;
+    height: 60px;
+    /* margin: 0.5rem; */
+    /* border-radius: 50%; */
+    border: 5px solid rgba(0, 0, 0, 0.7);
+    /* border-radius: 5px; */
+    font-size: 1.3rem;    
+    background: linear-gradient(rgb(161, 161, 161),rgb(11, 10, 11)60%, rgb(179, 179, 179));
+    color: #fff;
+}
+/* .btn:active{
+    background-color: #fff;
+    border: 0.5px solid;
+} */
+.btn:active{
+    background: rgb(163, 163, 163);
+    color: black;
+}
+.buttons{
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.display{
+    /* margin: 1rem; */
+    width: 228px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0.5rem ;
+    text-align: right;
+    background-color: #fff;
+}
+.anser{
+    margin: 1rem;
+    width: 210px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0.5rem ;
+    text-align: right;
+}
+.main{
+    
+    border: 5px solid;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.company{
+    border: 2px solid rgb(97, 13, 131);
+    padding: 0.5px 7px;
+    border-radius: 5px;
+    color: rgb(0, 255, 89);
+    animation: 1s linear 1s infinite normal colorChange;
+}
+@keyframes colorChange{
+    from{
+        color: rgb(0, 255, 89);
+    }
+    to{
+        color: rgb(223, 255, 62);
+    }
+}
+.ope{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
