@@ -29,5 +29,7 @@ Array.from(buttons).forEach((btn)=>{
         
     })
 })
+//add input
+//add header
 //add paragraph tag
 //add input
