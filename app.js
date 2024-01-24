@@ -30,3 +30,4 @@ Array.from(buttons).forEach((btn)=>{
     })
 })
 //add paragraph tag
+//add input
